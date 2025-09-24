@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+  <meta charset="UTF-8">
+  <title>Абай Құнанбайұлының шығармашылығы</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: #f3f4f6;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+    }
+
+    .menu-item {
+      position: relative;
+      margin-left: 20px;
+    }
+
+    .menu-item a {
+      color: #f3f4f6;
+      text-decoration: none;
+      padding: 8px 12px;
+      display: block;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    .menu-item a:hover {
+      background-color: #374151;
+      color: #fff;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #444;
+      min-width: 160px;
+      z-index: 1000;
+      border-radius: 6px;
+    }
+
+    .submenu a {
+      padding: 10px;
+      color: white;
+      font-size: 15px;
+    }
+
+    .submenu a:hover {
+      background-color: #555;
+    }
+
+    .menu-item:hover .submenu {
+      display: block;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    /* ✅ Картинки справа колонной */
+    .image-column {
+      float: right;
+      width: 250px;
+      margin: 0 0 15px 20px; /* отступы слева и снизу */
+    }
+
+    .image-column img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 15px; /* отступ между картинками */
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">АбайHub - Жаңа ұрпаққа Абайдың сөзі</div>
+    <nav>
+      <div class="menu-item active"><a href="123456789.html">Тапсырмалар</a></div>
+      <div class="menu-item"><a href="12345678.html">Шығармалар талдауы</a></div>
+
+      <div class="menu">
+        <div class="menu-item">
+          <a href="12345.html" target="_blank">Өмір жолы</a>
+        </div>
+        <div class="menu-item">
+          <a href="#about">Дүниетаным және шығармашылығы</a>
+          <div class="submenu">
+            <a href="123456.html">Көзқарасы</a>
+            <a href="1234567.html">Шығармашылығы</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Абай Құнанбайұлының шығармашылығы</h1>
+
+    <!-- ✅ Колонна картинок -->
+    <div class="image-column">
+      <img src="Abai_Kunanbaev.jpg" alt="Абай суреті 1">
+      <img src="1e317af4913903d472db186ca8e89557.jpg" alt="Абай суреті 2">
+    </div>
+
+    <!-- ✅ Текст будет обтекать картинки -->
+    <p>
+      Абай Құнанбайұлының шығармашылығы – қазақ әдебиетінің дамуында жаңа дәуір бастаған асыл мұра. Ол өз өлеңдері арқылы халықты ғылым-білімге, еңбекке, адамгершілікке шақырып, надандық пен жалқаулықты сынға алды. «Ғылым таппай мақтанба», «Интернатта оқып жүр», «Өлсе өлер табиғат, адам өлмес» сияқты өлеңдерінде өмірдің мәні, білімнің пайдасы, адам болмысы терең суреттеледі.
+Абайдың ерекше еңбегі – қара сөздері. Бұл – философиялық ой-толғаулар жинағы. Онда ол халықтың мінез-құлқы, тәрбие, дін, адамгершілік туралы пікірлерін айтады.
+    </p>
+    <hr>
+    <p>
+     Сонымен қатар Абай орыс әдебиетінің классиктерін қазақша сөйлетіп, Пушкин, Лермонтов, Крылов шығармаларын аударды. Бұл қазақ әдебиетінің көкжиегін кеңейтіп, жаңа тақырыптар мен көркемдік үлгілерді әкелді.
+Абайдың әндері де халық қазынасына айналды. «Көзімнің қарасы», «Желсіз түнде жарық ай» сияқты туындылары қазақтың ән өнерінде мәңгілік орын алды.
+Осылайша, Абай шығармашылығы – өлең, қара сөз және аударма саласын қамтыған, қазақ руханиятының биік шыңы болып табылады.
+    </p>
+    <hr>
+    <p>Абай Құнанбайұлының шығармашылығы қазақ әдебиетінің тарихында ерекше орын алады. Оның өлеңдерінде білім мен ғылымға ұмтылыс, еңбекқорлық пен адамгершілік мәселелері кеңінен жырланған. Ақын поэзиясында табиғаттың әсемдігі бейнеленіп, ол адам жан дүниесімен тығыз байланыста суреттеледі. Махаббат тақырыбы да нәзік лирика арқылы көрініс табады. Абай қазақ өлеңінің құрылымын жаңартып, жаңа ырғақ пен ұйқас түрлерін енгізді.</p>
+    <hr>
+    <p>Оның шығармаларында сыншыл реализм басым болып, қоғамдағы әділетсіздік, жалқаулық, надандық секілді құбылыстар қатты сыналады. Халық даналығын терең меңгерген Абай оны шығармаларында жаңа қырынан көрсетеді. Ақын Пушкин, Лермонтов, Крылов шығармаларын аударып, қазақ әдебиетіне тың өрнектер әкелді. Сонымен бірге, ол ән мен поэзияны ұштастырып, халыққа кең тараған әсем әуендер қалдырды. Абайдың көркемдік мұрасы – ұлттық руханияттың мәңгілік қазынасы.</p>
+  </main>
+</body>
+</html>
